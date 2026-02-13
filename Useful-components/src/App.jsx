@@ -1,20 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import './App.css'
-import Accordion from './Components/Accordion'
+import Accordion from './components/Accordion'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-         {/* Accordion Component */}
-         <Accordion />
-      </div>  
+        {/* Accordion Component */}
+        <Accordion />
+
+        {/* Random Color Generator */}
+        {/* <RandomColor /> */}
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
